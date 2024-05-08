@@ -1,0 +1,33 @@
+local baseplate = Instance.new("Part")
+baseplate.Name = "Baseplate"
+baseplate.Size = UDim2.new(0, 200, 0, 200) 
+baseplate.Position = UDim2.new(0, 0, 5, 0) 
+baseplate.BrickColor = BrickColor.new("Dark Grey")
+baseplate.Parent = workspace
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+mouse.Icon = "rbxassetid://17424766688"
+
+local humanoid = player.Character.Humanoid
+
+local walkAnimation = Instance.new("Animation")
+walkAnimation.AnimationId = "rbxassetid://13416449761"
+
+local walkTrack = humanoid:LoadAnimation(walkAnimation)
+
+local jumpAnimation = Instance.new("Animation")
+jumpAnimation.AnimationId = "rbxassetid://14442160450"
+
+local jumpTrack = humanoid:LoadAnimation(jumpAnimation)
+
+local function onKeyPress(input)
+    if input.KeyCode == Enum.KeyCode.W or input.KeyCode == Enum.KeyCode.A or
+        input.KeyCode == Enum.KeyCode.S or input.KeyCode == Enum.KeyCode.D then
+        walkTrack:Play()
+    elseif input.KeyCode == Enum.KeyCode.Space then
+        jumpTrack:Play()
+    end
+end
+
+game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
