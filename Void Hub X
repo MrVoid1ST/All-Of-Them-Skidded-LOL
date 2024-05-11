@@ -388,7 +388,7 @@ DevIcon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DevIcon.BackgroundTransparency = 0.7
 DevIcon.Position = UDim2.new(0, 20, 0.01, 10)
 DevIcon.Size = UDim2.new(0, 180, 0, 180)
-DevIcon.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3323558881&width=999&height=999&format=png"
+DevIcon.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=4077998514&width=999&height=999&format=png"
 
 DevIconUI.Parent = DevIcon
 DevIconUI.CornerRadius = UDim.new(0, 12)
@@ -399,7 +399,7 @@ DevDesc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DevDesc.Position = UDim2.new(0, 210, 0.01, 10)
 DevDesc.Size = UDim2.new(0, 150, 0, 180)
 DevDesc.Font = Enum.Font.Code
-DevDesc.Text = "ERROR_CODE \n\n\nH.Programmer \n H.Designer \n H.Developer"
+DevDesc.Text = "Ozan36yt(MrVoid) \n\n\nH.Programmer \n H.Designer \n H.Developer"
 DevDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
 DevDesc.TextSize = 20
 DevDesc.BackgroundTransparency = 0.7
