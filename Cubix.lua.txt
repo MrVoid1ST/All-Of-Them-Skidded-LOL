@@ -96,7 +96,7 @@ Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Open.BorderSizePixel = 0
 Open.Position = UDim2.new(0.901421309, 0, 0.0284554306, 0)
 Open.Size = UDim2.new(0, 46, 0, 46)
-Open.Image = "rbxassetid://16163653051"
+Open.Image = "rbxassetid://17180679934"
 Open.ScaleType = Enum.ScaleType.Fit
 
 UICorner.CornerRadius = UDim.new(0, 50)
@@ -588,7 +588,7 @@ FPSTitle.BorderSizePixel = 0
 FPSTitle.Position = UDim2.new(0.0377358496, 0, 0.25, 0)
 FPSTitle.Size = UDim2.new(0, 200, 0, 21)
 FPSTitle.Font = Enum.Font.Gotham
-FPSTitle.Text = "FPS Unlocker"
+FPSTitle.Text = "Fly Gui"
 FPSTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 FPSTitle.TextSize = 14.000
 FPSTitle.TextXAlignment = Enum.TextXAlignment.Left
