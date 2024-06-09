@@ -129,7 +129,7 @@ Avatar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Avatar.BorderSizePixel = 0
 Avatar.Position = UDim2.new(0.248527065, 0, 0.0260582827, 0)
 Avatar.Size = UDim2.new(0, 41, 0, 42)
-Avatar.Image = "rbxassetid://16163653051"
+Avatar.Image = "rbxassetid://17180679833"
 Avatar.ScaleType = Enum.ScaleType.Fit
 
 UICorner_3.CornerRadius = UDim.new(0, 6)
